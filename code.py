@@ -1,8 +1,4 @@
 def calculate_bid(player,pos,first_moves,second_moves):
-    """your logic here"""
-
-    ###
-
     import random
 
     bank = 100
@@ -75,7 +71,7 @@ def calculate_bid(player,pos,first_moves,second_moves):
             return 12
         else:
             return 13
-    
+
     return max(1, min(my_money, int(round(mu))))
 
 #gets the id of the play
